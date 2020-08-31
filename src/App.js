@@ -1,8 +1,10 @@
 import React from 'react';
-import StepSequencer from './MDN02-step-sequencer/MDN-machine';
-
 import './App.css';
-import './MDN02-step-sequencer/MDN-machine.css'
+
+// import StepSequencer from './MDN02-step-sequencer/MDN-machine';
+// import './MDN02-step-sequencer/MDN-machine.css'
+
+import ToneOne from './tone/tone-01';
 
 export default class App extends React.Component {
 
@@ -11,7 +13,7 @@ export default class App extends React.Component {
             <div className="App">
                 Hello.
 
-                {/* <StepSequencer /> */}
+                <ToneOne />
                 
             </div>
         );
