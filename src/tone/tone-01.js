@@ -31,7 +31,7 @@ export default class ToneTestOne extends React.Component {
             <div>
                 <button disabled={!isLoaded} onClick={this.handleClick}>
                     start
-        </button>
+                </button>
             </div>
         );
     }
